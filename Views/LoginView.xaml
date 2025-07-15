@@ -1,0 +1,28 @@
+﻿<Window x:Class="TP_MESERP_Core.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Giriş" Height="250" Width="400" >
+    
+        <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Kullanıcı Adı Text -->
+            <RowDefinition Height="Auto"/>
+            <!-- Kullanıcı Adı TextBox -->
+            <RowDefinition Height="Auto"/>
+            <!-- Şifre Text -->
+            <RowDefinition Height="Auto"/>
+            <!-- Şifre PasswordBox -->
+            <RowDefinition Height="Auto"/>
+            <!-- Buton -->
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Kullanıcı Adı:" Grid.Row="0"/>
+        <TextBox x:Name="txtUsername" Grid.Row="1" Margin="0,5"/>
+
+        <TextBlock Text="Şifre:" Grid.Row="2" Margin="0,10,0,0"/>
+        <PasswordBox x:Name="txtPassword" Grid.Row="3" Margin="0,5"/>
+
+        <Button Content="Giriş Yap" Grid.Row="4" Click="Login_Click" Margin="0,15,0,0" Width="100" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>

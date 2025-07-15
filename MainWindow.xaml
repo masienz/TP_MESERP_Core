@@ -1,0 +1,18 @@
+﻿<Window x:Class="TP_MESERP_Core.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP_MESERP_Core.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MainGrid">
+        <!-- Giriş Paneli -->
+        <local:LoginView x:Name="LoginPanel" />
+
+        <!-- Giriş sonrası yüklenecek ekranlar -->
+        <Grid x:Name="MainContent" Visibility="Collapsed">
+            <!-- Örneğin ürün listesi veya ana panel -->
+        </Grid>
+    </Grid>
+</Window>

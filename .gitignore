@@ -1,0 +1,66 @@
+# Build klasörleri
+bin/
+obj/
+.vs/
+
+# Rider / JetBrains klasörleri
+.idea/
+*.sln.iml
+
+# User-specific dosyalar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code ayarları
+.vscode/
+
+# Paket yönetimi
+packages/
+*.nupkg
+*.snupkg
+
+# Temporary dosyalar
+*.log
+*.tmp
+*.bak
+*.old
+*.cache
+*.dbmdl
+*.pdb
+
+# ReSharper / VS tool dosyaları
+_ReSharper*/
+*.DotSettings.user
+
+# Windows thumbnail
+Thumbs.db
+Desktop.ini
+
+# Access veritabanı temporary dosyaları
+*.ldb
+*.laccdb
+
+# Geliştiriciye özel çıktı
+*.tlog
+*.ipch
+*.iobj
+*.idb
+
+# Test sonuçları
+TestResults/
+*.trx
+
+# Yayınlama çıktı dosyaları
+publish/
+
+# Uygulama ayar dosyaları
+*.config
+*.xml
+
+# Eğer Access veritabanını hariç tutmak istersen:
+# !TPMESERP.accdb  # (Eğer takipte tutulmasını istiyorsan)
+
+# Eğer sadece örnek Access dosyası bırakacaksan:
+# TPMESERP.accdb
